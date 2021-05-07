@@ -1,0 +1,98 @@
+/* boite à outils générale */
+.blue{
+    color: rgba(88,115,199,1);
+}
+.helv{
+    font-family: Helvetica, Arial, sans-serif;
+}
+.impact{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+.grow{
+    flex-grow: 1;
+}
+
+/* Spécification */
+
+*{
+    font-size: 1em;
+    display: flex;
+}
+body{
+    padding: 10px;
+    border: 3px solid rgb(73, 156, 138);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: stretch;
+    height: 100%;
+}
+h2{
+    display: flex;
+    color:white;
+    background-color: rgb(77, 112, 156);
+    height: 3em;
+    font-size: 1.7em;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex-grow: 1;
+}
+
+/* CLASS */
+.total{
+    display: flex;
+    flex-flow:wrap row;
+    justify-content: space-evenly;
+}
+.breakfast{
+    background-color: rgba(208,224,186,1);  
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgba(82, 97, 64,1);
+}
+.pause{
+    background-color: rgba(208,224,186,1);
+    color: rgba(82, 97, 64,1);
+    padding: 2em;
+}
+.quart1{
+    background-color: rgba(116, 81, 235,1);
+    color: white;
+}
+.quart2{
+    background-color: rgba(116, 81, 235,1);
+    color: white;
+}
+.quart3{
+    background-color: rgba(116, 81, 235,1);
+    color: white;
+}
+.quart4{
+    background-color: rgba(116, 81, 235,1);
+    color: white;
+}
+.matin{
+    background-color: rgba(237, 185, 111,1);
+    color: rgba(117, 69, 29,1);*
+}
+.midi{
+    background-color: rgba(255, 253, 117,1);
+    color: rgba(194, 142, 48,1);
+    padding: 2em;
+}
+.fin{
+    background-color: rgba(123, 189, 237,1);
+    color: white;
+    padding: 2em;
+}
